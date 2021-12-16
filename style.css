@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    
+
+}
+
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #231d30;
+    display: flex;
+
+}
