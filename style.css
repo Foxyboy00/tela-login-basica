@@ -1,0 +1,110 @@
+    .titulo{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color: white;
+
+
+    }
+
+
+
+
+body {
+
+
+background-image: url(imagemclean2.png);
+
+
+
+}
+
+
+.btns{
+
+text-align: center;
+margin-top: 50px;
+
+
+
+
+
+
+}
+
+
+.efeitobotao{
+
+    border: none;
+    color: rgb(rgb(46, 44, 44), rgb(11, 12, 11), rgb(3, 3, 7));
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+
+
+
+}
+
+
+.botao{
+
+background-color: rgb(20, 20, 20);
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
+min-width: min-content;
+
+}
+
+.efeito:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;
+    background: rgba(rgb(255, 255, 255), rgb(252, 241, 241), rgb(255, 255, 255), alpha);
+    border-radius: 10px;
+    transition: all 2s ease;
+
+
+}
+
+.botao:hover {
+    background-color: rgba(63, 62, 62, 0.26);
+    
+    
+
+
+}
+
+
+.host{
+
+
+color: rgb(79, 77, 199);
+text-decoration: none;
+
+
+}
+
+
+
+.offcanvas-body{
+
+
+background-color: white;
+color: rgb(0, 0, 0);
+padding: -20px;
+
+}
+
+
+
